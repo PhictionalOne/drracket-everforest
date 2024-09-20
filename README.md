@@ -1,4 +1,4 @@
-# Everforest Theme for DrRacket
+# Everforest Themes for DrRacket
 
 A soothing, nature-inspired color scheme for DrRacket, based on [sainnhe's Everforest palette](https://github.com/sainnhe/everforest/blob/master/palette.md).
 
@@ -12,21 +12,32 @@ Implements all three contrast styles for both Dark and Light themes from the Eve
 
 ## Installation
 
+### From the Index
+
+1. Install the themes using `raco`:
+   ```raco
+   raco pkg install drracket-everforest
+   ```
+
+2. Go to "Edit" > "Preferences" > "Colors" to select one of the Everforest themes.
+
+### From Source
+
 1. Clone this repository:
    ```
    git clone https://github.com/PhictionalOne/drracket-everforest.git
    ```
 
-2. Install the theme using `raco`:
+2. Install the themes using `raco`:
    ```
    raco pkg install drracket-everforest/
    ```
 
-3. Open DrRacket and go to "Edit" > "Preferences" > "Colors" to select the Everforest theme.
+3. Open DrRacket and go to "Edit" > "Preferences" > "Colors" to select one of the Everforest themes.
 
 ## Usage
 
-Once installed, you can select the Everforest theme from DrRacket's color preferences. The theme will apply to both the definitions and interactions windows.
+Once installed, you can select an Everforest theme from DrRacket's color preferences. The theme will apply to both the definitions and interactions windows.
 
 ## License
 
