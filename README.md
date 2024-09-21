@@ -18,13 +18,11 @@ you may be more comfortable with the [graphical user interface](#the-graphical-w
 ### The Command Line Way
 
 From the Package Catalog:
-
 ```sh
 raco pkg install drracket-everforest
 ```
 
 From Github directly:
-
 ```sh
 raco pkg install git://github.com/PhictionalOne/drracket-everforest.git
 ```
