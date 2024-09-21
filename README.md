@@ -12,32 +12,64 @@ Implements all three contrast styles for both Dark and Light themes from the Eve
 
 ## Installation
 
-### From the Index
+There are a lot of ways to install the colorschme. If your new to the world of programming
+you may be more comfortable with the [graphical user interface](#the-graphical-way) in DrRacket.  
 
-1. Install the themes using `raco`:
-   ```raco
-   raco pkg install drracket-everforest
+### The Command Line Way
+
+From the Package Catalog:
+
+```sh
+raco pkg install drracket-everforest
+```
+
+From Github directly:
+
+```sh
+raco pkg install git://github.com/PhictionalOne/drracket-everforest.git
+```
+
+From Source:
+1. Download this repository
+2. Open shell in this folder
+3. Install
+   ```sh
+   raco pkg install ./
    ```
 
-2. Go to "Edit" > "Preferences" > "Colors" to select one of the Everforest themes.
+### The Graphical Way
 
-### From Source
+Open DrRacket and then choose one of the following three paths.
 
-1. Clone this repository:
-   ```
-   git clone https://github.com/PhictionalOne/drracket-everforest.git
-   ```
+From Github directly:
+1. Open "Install Package" window: "File" > "Install Package"
+2. Paste `https://PhictionalOne/drracket-everforest.git` into text field
+3. Click "Install" button
 
-2. Install the themes using `raco`:
-   ```
-   raco pkg install drracket-everforest/
-   ```
+From the Package Catalog:
+1. Open the "Package Manager" window: "File" > "Package Manager"
+2. Click "Available from Catalog" tab
+3. Click "Update Package List"
+4. Search for "drracket-everforest"
+5. Click on the Result
+6. Click "Install" on the bottom of the window
 
-3. Open DrRacket and go to "Edit" > "Preferences" > "Colors" to select one of the Everforest themes.
+From Source:
+1. Download the [Release](https://PhictionalOne/drracket-everforest/releases) as a Zip file
+2. Open "Install Package" window: "File" > "Install Package"
+3. Click "Browse"
+5. Click "File"
+6. Select the `drracket-everforest.zip`
+7. Click "Install"
 
 ## Usage
 
-Once installed, you can select an Everforest theme from DrRacket's color preferences. The theme will apply to both the definitions and interactions windows.
+Once installed, you can select an Everforest theme from DrRacket's color preferences. 
+
+> "Edit" > "Preferences" > "Colors"
+
+Scroll to your desired theme and click on its name to apply it.
+The theme will apply to both the definitions and interactions windows.
 
 ## License
 
